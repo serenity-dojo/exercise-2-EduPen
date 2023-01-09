@@ -48,10 +48,10 @@ public class WhenWorkingWithStrings {
     public void findTheLengthOfAString() {
         String bookTitle = "The Cat In The Hat";
 
-        int length = 0;
+        int length = bookTitle.length();
         // TODO: Find the number of characters in the string
         
-        length = bookTitle.lenght();
+     
 
         assertThat(length, equalTo(18));
     }
