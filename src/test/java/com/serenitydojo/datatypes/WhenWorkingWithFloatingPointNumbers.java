@@ -14,7 +14,7 @@ public class WhenWorkingWithFloatingPointNumbers {
     @Test
     public void convertToFarenheit() {
         double celcius = 27;
-        double farenheit = (9 / 5) * celcius + 32;
+        double farenheit = ((9/5) * celcius) + 32;
         
 
         // TODO: Use a floating point calculation to calculate the farenheit equivalent of the celcius value.
