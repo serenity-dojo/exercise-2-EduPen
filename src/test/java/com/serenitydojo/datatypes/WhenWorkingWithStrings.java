@@ -62,7 +62,7 @@ public class WhenWorkingWithStrings {
 
         String updatedTitle = "";
         
-        updatedTitle =updatedTitle.replace("Cat", "Dog");
+        updatedTitle =bookTitle.replace("Cat", "Dog");
         // TODO: Replace the word "Cat" with "Dog
 
         assertThat(updatedTitle, equalTo("The Dog In The Hat"));
